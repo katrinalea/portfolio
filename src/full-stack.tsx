@@ -18,6 +18,10 @@ export default function FullStack(props: FSProp): JSX.Element {
           and access a leaderboard which tracks the top 10 scores from all
           users.
         </p>
+        <br />
+        <a href = "https://github.com/katrinalea/flash-cards"> GitHub Front-End Repo</a>
+        <br />
+        <a href = "https://github.com/katrinalea/flash-card-backend"> GitHub Back-End Repo</a>
         <hr />
         <a href="https://to-do-list-katrina.netlify.app"> To-Do list</a>
         <p>
@@ -25,6 +29,11 @@ export default function FullStack(props: FSProp): JSX.Element {
           A simple to-do list tool, allowing the user to input an item, delete
           or edit individual items and mark them as complete.
         </p>
+        <br />
+        <a href = "https://github.com/katrinalea/to-do-app"> GitHub Front-End Repo</a> 
+        <br />
+        <a href = "https://github.com/katrinalea/to-do-backEnd"> GitHub Back-End Repo</a>
+        <hr />
       </div>
     </>
   );

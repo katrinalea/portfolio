@@ -16,6 +16,8 @@ export default function FrontEnd(props: FEProp): JSX.Element {
           Allows you to search through the worlds countries, and mark them as
           visted or want to visit
         </p>
+        <br /> 
+        <a href = "https://github.com/katrinalea/countrys-API"> GitHub Repo</a>
         <hr />
         <a href="https://baby-names-katrina.netlify.app/"> Baby Names </a>
         <p>
@@ -23,6 +25,9 @@ export default function FrontEnd(props: FEProp): JSX.Element {
           Search and filter baby names based on gender, select and de-select
           your favourites !
         </p>
+        <br /> 
+        <a href = "https://github.com/katrinalea/baby-names"> GitHub Repo</a>
+        <hr />
       </div>
     </>
   );
