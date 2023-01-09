@@ -14,7 +14,7 @@ export default function FrontEnd(props: FEProp): JSX.Element {
         <p>
           {" "}
           Allows you to search through the worlds countries, and mark them as
-          visted or want to visit
+          visted or want to visit.
         </p>
         <br /> 
         <a href = "https://github.com/katrinalea/countrys-API"> GitHub Repo</a>
@@ -27,6 +27,15 @@ export default function FrontEnd(props: FEProp): JSX.Element {
         </p>
         <br /> 
         <a href = "https://github.com/katrinalea/baby-names"> GitHub Repo</a>
+        <hr />
+        <a href="https://benevolent-praline-0fd986.netlify.app/"> TV Shows </a>
+        <p>
+          {" "}
+          Search and filter TV shows, select a show to look at it's episodes!
+          This was a collaborative project in a team of two.
+        </p>
+        <br /> 
+        <a href = "https://github.com/katrinalea/tv-shows"> GitHub Repo</a>
         <hr />
       </div>
     </>
