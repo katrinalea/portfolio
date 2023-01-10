@@ -13,7 +13,7 @@ function App(): JSX.Element {
   };
 
   return (
-    <div>
+    <div className="font">
       {render === "welcome" && <Portfolio setRender={handleRender} />}
       {render === "full-stack" && <FullStack setRender={handleRender} />}
       {render === "front-end" && <FrontEnd setRender={handleRender} />}

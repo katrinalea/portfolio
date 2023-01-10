@@ -8,6 +8,10 @@ export default function FullStack(props: FSProp): JSX.Element {
       <div className="page">
         <h1> Full Stack Applications </h1>
         <button onClick={() => props.setRender("welcome")}> Home </button>
+        <p>
+          Projects are deployed using render.com as a remote server so their may
+          be a delay with database connection when first loading the apps.
+        </p>
         <hr />
         <a href="https://spanish-flashcards.netlify.app"> Spanish Flashcards</a>
         <br />
@@ -19,9 +23,15 @@ export default function FullStack(props: FSProp): JSX.Element {
           users.
         </p>
         <br />
-        <a href = "https://github.com/katrinalea/flash-cards"> GitHub Front-End Repo</a>
+        <a href="https://github.com/katrinalea/flash-cards">
+          {" "}
+          GitHub Front-End Repo
+        </a>
         <br />
-        <a href = "https://github.com/katrinalea/flash-card-backend"> GitHub Back-End Repo</a>
+        <a href="https://github.com/katrinalea/flash-card-backend">
+          {" "}
+          GitHub Back-End Repo
+        </a>
         <hr />
         <a href="https://to-do-list-katrina.netlify.app"> To-Do list</a>
         <p>
@@ -30,9 +40,15 @@ export default function FullStack(props: FSProp): JSX.Element {
           or edit individual items and mark them as complete.
         </p>
         <br />
-        <a href = "https://github.com/katrinalea/to-do-app"> GitHub Front-End Repo</a> 
+        <a href="https://github.com/katrinalea/to-do-app">
+          {" "}
+          GitHub Front-End Repo
+        </a>
         <br />
-        <a href = "https://github.com/katrinalea/to-do-backEnd"> GitHub Back-End Repo</a>
+        <a href="https://github.com/katrinalea/to-do-backEnd">
+          {" "}
+          GitHub Back-End Repo
+        </a>
         <hr />
       </div>
     </>

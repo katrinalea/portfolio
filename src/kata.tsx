@@ -14,8 +14,12 @@ export default function Kata(props: KataProp): JSX.Element {
           Code Wars account
         </a>
         <hr />
-        <a href = "https://github.com/katrinalea/code-wars"> Kata GitHub </a>
-        <p> Contains some katas solved from code-wars and from academy in typescript.</p>
+        <a href="https://github.com/katrinalea/code-wars"> Kata GitHub </a>
+        <p>
+          {" "}
+          Contains some katas solved from code-wars and from academy in
+          typescript.
+        </p>
       </div>
     </>
   );
