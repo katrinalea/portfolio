@@ -1,6 +1,65 @@
-.page {
+body {
   text-align: center;
+  background-color: rgb(247, 215, 220);
 }
+
+.button-welcome {
+  background-color: white;
+  border: rgb(223, 174, 198) solid 1px;
+  border-radius: 20%;
+  height: 10vw;
+  width: 20vw;
+  font-size: x-large;
+
+}
+.button-pages {
+  background-color: white;
+  border: rgb(223, 174, 198) solid 1px;
+  border-radius: 20%;
+  height: 3vw;
+  width: 8vw;
+  font-size: medium;
+
+}
+.button-pages:hover {
+  box-shadow: 5px 5px 5px rgb(197, 114, 155);
+  cursor: pointer;
+
+}
+.button-welcome:hover {
+  box-shadow: 5px 5px 5px rgb(197, 114, 155);
+  cursor: pointer;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.items {
+  border: rgb(223, 174, 198) solid 1px;
+  box-shadow: 5px 5px 5px rgb(197, 114, 155);
+  border-radius: 20%;
+  height: 20vw;
+  width: 20vw;
+  margin: 5vw 5vw 5vw 5vw;
+  text-align: center;
+  justify-content: center;
+  padding: 1vw;
+  background-color: white;
+ 
+}
+
+a {
+  color: black;
+  font-size: x-large;
+
+}
+a:hover {
+  color: rgb(237, 13, 140)
+}
+
+
 
 .font {
   font-style: normal;

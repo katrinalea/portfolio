@@ -7,12 +7,14 @@ export default function FullStack(props: FSProp): JSX.Element {
     <>
       <div className="page">
         <h1> Full Stack Applications </h1>
-        <button onClick={() => props.setRender("welcome")}> Home </button>
+        <button className = "button-pages" onClick={() => props.setRender("welcome")}> Home </button>
         <p>
           Projects are deployed using render.com as a remote server so their may
           be a delay with database connection when first loading the apps.
         </p>
         <hr />
+        <div className = "grid-container">
+          <div className = "items">
         <a href="https://spanish-flashcards.netlify.app"> Spanish Flashcards</a>
         <br />
         <p>
@@ -32,7 +34,8 @@ export default function FullStack(props: FSProp): JSX.Element {
           {" "}
           GitHub Back-End Repo
         </a>
-        <hr />
+        </div>
+        <div className = "items">
         <a href="https://to-do-list-katrina.netlify.app"> To-Do list</a>
         <p>
           {" "}
@@ -49,7 +52,9 @@ export default function FullStack(props: FSProp): JSX.Element {
           {" "}
           GitHub Back-End Repo
         </a>
-        <hr />
+        </div>
+  
+        </div>
       </div>
     </>
   );
