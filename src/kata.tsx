@@ -7,7 +7,13 @@ export default function Kata(props: KataProp): JSX.Element {
     <>
       <div className="page">
         <h1> Kata's</h1>
-        <button className = "button-pages" onClick={() => props.setRender("welcome")}> Home </button>
+        <button
+          className="button-pages"
+          onClick={() => props.setRender("welcome")}
+        >
+          {" "}
+          Home{" "}
+        </button>
         <hr />
         <a href="https://www.codewars.com/users/katrinalea">
           {" "}

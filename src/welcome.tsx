@@ -11,17 +11,29 @@ export default function Portfolio(props: welcomeProp): JSX.Element {
         <br />
         <a href="www.linkedin.com/in/katrina-woolley-763033201">LinkedIn</a>
         <hr />
-        <button className = "button-welcome" onClick={() => props.setRender("full-stack")}>
+        <button
+          className="button-welcome"
+          onClick={() => props.setRender("full-stack")}
+        >
           {" "}
           Full-Stack Projects
         </button>
         <hr />
-        <button className = "button-welcome" onClick={() => props.setRender("front-end")}>
+        <button
+          className="button-welcome"
+          onClick={() => props.setRender("front-end")}
+        >
           {" "}
           Front-End Projects
         </button>
         <hr />
-        <button className = "button-welcome" onClick={() => props.setRender("kata")}> Katas </button>
+        <button
+          className="button-welcome"
+          onClick={() => props.setRender("kata")}
+        >
+          {" "}
+          Katas{" "}
+        </button>
       </div>
     </>
   );
