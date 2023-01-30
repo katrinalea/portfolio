@@ -62,6 +62,27 @@ export default function FullStack(props: FSProp): JSX.Element {
               GitHub Back-End Repo
             </a>
           </div>
+          <div className="items">
+            <a href="https://life-organiser.netlify.app/"> Organiser App</a>
+            <h3> Work in progress !</h3>
+            <p>
+              {" "}
+              Currently working on an organiser app, that contains an address
+              book, notes page, to-do list and phone book to help the user
+              organise their life. Also working to incorporate react-router
+              within this app.
+            </p>
+            <br />
+            <a href="https://github.com/katrinalea/organiser">
+              {" "}
+              GitHub Front-End Repo
+            </a>
+            <br />
+            <a href="https://github.com/katrinalea/organiser-backend">
+              {" "}
+              GitHub Back-End Repo
+            </a>
+          </div>
         </div>
       </div>
     </>
