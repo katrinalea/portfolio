@@ -83,6 +83,29 @@ export default function FullStack(props: FSProp): JSX.Element {
               GitHub Back-End Repo
             </a>
           </div>
+          <div className="items">
+            <a href="https://dog-breed-voter-mtkb.netlify.app/">
+              {" "}
+              Dog breed voting App{" "}
+            </a>
+            <h3> Group project - team of 4.</h3>
+            <p>
+              {" "}
+              A UI fetching dog breed images from an API, user votes for their
+              favourite dog breed, votes accumulate within the db. A leaderboard
+              is acessible with the top ten dog breeds.
+            </p>
+            <br />
+            <a href="https://github.com/b-e-n-murray/dog-breed-voting-frontend">
+              {" "}
+              GitHub Front-End Repo
+            </a>
+            <br />
+            <a href="https://github.com/b-e-n-murray/dog-breed-voting-backend">
+              {" "}
+              GitHub Back-End Repo
+            </a>
+          </div>
         </div>
       </div>
     </>
